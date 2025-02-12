@@ -25,7 +25,7 @@ def criar_e_treinar_ia():
 
     # 6. Avaliar o modelo
     acuracia = accuracy_score(y_teste, previsoes)
-    print(f"Acurácia do modelo: {acuracia * 100:.2f}%")
+    print(f"Acuracia do modelo: {acuracia * 100:.2f}%")
 
     return modelo
 
